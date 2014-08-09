@@ -1,0 +1,76 @@
+
+body{
+    background-color: #f2e8cf; 
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    background-color: #32363a;
+    width: 100vh *2;
+    height: 150px;
+    text-align: center;
+    margin-top: 0px;
+}
+#header p{
+    font-family: 'Josefin Slab';
+    color:  #f2e8cf;
+    font-size: 80px;
+}
+#input {
+    margin-top: 80px;
+    text-align: center;
+    height: 300px;
+}
+
+#input #inputbox {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Oswald';
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    color:  #32363a;
+    background-color: #f2e8cf;
+    border: 5px solid #e45539;
+}
+
+#input #button {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: 'Oswald';
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    color: #f2e8cf;
+    background-color: #e45539;
+    transition: background-color 0.5s;
+    border: 0px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#input #button:hover{
+    background-color: #32363a;
+}
+.title {
+    font-family: 'Oswald';
+    color:  #e45539;
+    font-size: 30px;
+    line-height: 1px;
+}
+
+.text {
+    font-family: 'Oswald';
+    font-weight: 500;
+    color:  #32363a;
+    font-size: 18px;
+    line-height: 1px;
+}
+.content{
+    padding-top: 20px;
+    padding-left: 100px;
+    width: 100vh * 2;
+}
